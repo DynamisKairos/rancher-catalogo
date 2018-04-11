@@ -4,5 +4,16 @@
   description: "Plataforma ERP creada por Odoo S.A. anteriormente conocida como OpenERP"
   uuid: odoo-0
   questions:
+    variable: "ODOO_TAG"
+    description: "La etiqueta o versión asociada a este servidor"
+    label: "Versión o tag de odoo"
+    required: true
+    default: "latest"
+    type: enum
+    options:
+      - latest
+      - 11.0
+      - 10.0
+      - 9.0
 
 odoo:

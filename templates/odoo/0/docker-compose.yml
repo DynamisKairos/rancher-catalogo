@@ -1,5 +1,5 @@
 odoo:
-  image: odoo
+  image: odoo:${ODOO_TAG}
   ports:
     - "8069:8069"
   links:
