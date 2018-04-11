@@ -1,0 +1,8 @@
+.catalog:
+  name: "Odoo"
+  version: v0.1
+  description: "Plataforma ERP creada por Odoo S.A. anteriormente conocida como OpenERP"
+  uuid: odoo-0
+  questions:
+
+odoo:
