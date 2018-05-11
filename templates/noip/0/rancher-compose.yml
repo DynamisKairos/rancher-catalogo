@@ -5,5 +5,19 @@
     "Cliente de actualización de DNS dinámico."
   uuid: noip-0
   questions:
-
+    - variable: "NOIP_USER"
+      label: "Usuario"
+      description: "Usuario de la cuenta NoIP"
+      type: "string"
+      default: 
+    - variable: "NOIP_PASSWORD"
+      label: "Contraseña"
+      description: "Contraseña de la cuenta NoIP"
+      type: "string"
+      default: 
+    - variable: "NOIP_HOSTNAME"
+      label: "Nombre de host"
+      description: "Hostname de NoIP"
+      type: "string"
+      default: 
 noip:

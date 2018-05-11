@@ -3,6 +3,6 @@ services:
   noip:
     build: .
     environment:
-    - NOIP_USER
-    - NOIP_PASSWORD
-    - NOIP_HOSTNAME
+    - NOIP_USER = ${NOIP_USER}
+    - NOIP_PASSWORD = ${NOIP_PASSWORD}
+    - NOIP_HOSTNAME = ${NOIP_HOSTNAME}
