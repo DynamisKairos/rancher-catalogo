@@ -1,0 +1,6 @@
+name: NoIP
+description: |
+  cliente de actualización de DNS dinámico comprueba continuamente los cambios de dirección IP en el fondo y actualiza automáticamente el DNS en No-IP cada vez que cambia.
+version: v0.1
+category: DNS
+license: GPL v3

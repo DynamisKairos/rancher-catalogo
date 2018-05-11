@@ -1,0 +1,9 @@
+.catalog:
+  name: "NoIP-DUC"
+  version: v0.1
+  description: |
+    "Cliente de actualización de DNS dinámico."
+  uuid: noip-0
+  questions:
+
+noip:

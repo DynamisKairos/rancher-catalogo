@@ -1,0 +1,8 @@
+version: '2'
+services:
+  noip:
+    build: .
+    environment:
+    - NOIP_USER
+    - NOIP_PASSWORD
+    - NOIP_HOSTNAME
