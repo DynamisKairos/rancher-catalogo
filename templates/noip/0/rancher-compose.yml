@@ -9,15 +9,15 @@
       label: "Usuario"
       description: "Usuario de la cuenta NoIP"
       type: "string"
-      default: 
+      default: ""
     - variable: "NOIP_PASSWORD"
       label: "Contraseña"
       description: "Contraseña de la cuenta NoIP"
       type: "string"
-      default: 
+      default: ""
     - variable: "NOIP_HOSTNAME"
       label: "Nombre de host"
       description: "Hostname de NoIP"
       type: "string"
-      default: 
+      default: ""
 noip:
