@@ -1,7 +1,7 @@
 version: '2'
 services:
   noip:
-    build: .
+    image: dynamiskairos/noip-duc:0.1
     environment:
     - NOIP_USER = ${NOIP_USER}
     - NOIP_PASSWORD = ${NOIP_PASSWORD}
